@@ -23,7 +23,6 @@ function LoginModal({ toggleModal, status }: { toggleModal: () => void, status: 
 
     return (
         <div>
-
             <Modal theme={{
                 "content": {
                     "base": "relative w-full p-4 md:h-auto",
@@ -87,7 +86,6 @@ function LoginModal({ toggleModal, status }: { toggleModal: () => void, status: 
 
                 </ModalBody>
             </Modal>
-
         </div>
     )
 }
