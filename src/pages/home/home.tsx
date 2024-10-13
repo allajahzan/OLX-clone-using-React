@@ -18,6 +18,7 @@ export interface ItemType {
     imageUrl: string
 }
 
+
 function Home() {
 
     let [openModal, setModal] = useState<boolean>(false)
